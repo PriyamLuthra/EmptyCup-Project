@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+    body {
+    min-height: 100%;
+}
+@font-face {
+    font-family: 'SF-PRO';
+    src: url("fonts/sf-pro-text_regular.woff2");
+}
+@font-face {
+    font-family: 'SF-PRO-SEMIBOLD';
+    src: url("fonts/sf-pro-text_semibold.woff2");
+}
+
+@font-face {
+    font-family: 'SF-PRO-BOLD';
+    src: url("fonts/FontsFree-Net-SFProText-Bold.woff2");
+}
+.container{
+    height: 100%;
+    width: 100%;
+    overflow-y:hidden;
+}
+.wrapper-navbar{
+    padding: 3%;
+    height: 40%;
+    width: 100%;
+    margin-top: 2%;
+    box-shadow: 1px 1px 1px
+}
+.navbar{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'SF-PRO-BOLD';
+    margin-bottom: 2%;
+}
+.Header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'SF-PRO';
+    padding: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 3.5%;
+    cursor: pointer;
+}
+.Contacts{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Gallery{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Map{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Shortlisted{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Sort{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Parent_Design{
+    height: 100%;
+    width: 100%;
+}
+.EpicDesign{
+    height: 50%;
+    width: 100%;
+    background-color: #FFFCF2;
+    padding: 5%;
+    font-family:'SF-PRO-BOLD';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2%;
+}
+.design1-part1{
+    margin-left: 3%;
+}
+.design-para{ 
+    font-size: 10px;  
+    margin-top: 6%; 
+}
+.design1-part2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    border-left: 0.5px solid black;
+}
+
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 35%;
+}
+
+.design-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contacts{
+    font-family: 'SF-PRO-SEMIBOLD';
+    margin-top: 10%;
+}
+.studioDesign{
+    height: 50%;
+    width: 100%;
+    padding: 5%;
+    font-family:'SF-PRO-BOLD';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid black;
+}
+.design2-part2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    border-left: 0.5px solid black;
+}
+.HouseDesign{
+    width: 100%;
+    background-color: #FFFCF2;
+    padding: 5%;
+    font-family: 'SF-PRO';
+}
